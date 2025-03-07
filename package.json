@@ -1,0 +1,29 @@
+{
+  "name": "todowithagent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.4",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.39.3",
+    "gemini-ai": "^2.2.1",
+    "openai": "^4.85.1",
+    "pg": "^8.13.3",
+    "readline-sync": "^1.4.10"
+  }
+}
